@@ -42,6 +42,8 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
 
+
+
   .carousel_main_head{
     font-size: 55px;
   }
@@ -49,9 +51,9 @@
   .nav-item{
     padding: 0;}
   
-  /* .about_top_tx{
-    width: 450px;
-  } */
+  .about_top {
+    padding: 36px;
+  }
 
 }
 
