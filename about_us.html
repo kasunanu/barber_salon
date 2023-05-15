@@ -1,0 +1,612 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- costem css -->
+    <link rel="stylesheet" href="css/salon.css">
+    <!-- costem css -->
+
+    <!-- font awsom -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- font awsom -->
+
+    <!-- owl carousel min css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- owl carousel min css -->
+
+    <!-- owl carousel theme css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- owl carousel theme css -->
+
+    <!--jarallax js & css-->
+    <link href="jarallax/jarallax_css.css" rel="stylesheet" type="text/css" media="screen">
+    <!--jarallax js & css-->
+
+    <!-- mediaquery css -->
+    <link rel="stylesheet" href="css/mediaquery.css">
+    <!-- mediaquery css -->
+
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="img/favicon.svg" />
+    <!--favicon--> 
+
+    <!--scroll bar style-->
+    <style>
+      ::-webkit-scrollbar {
+        width: 1px;
+      }
+
+      ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 0px #DCA44E;
+        border-radius: 0px;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        border-radius: 0px;
+        background-color: #DCA44E;
+        -webkit-box-shadow: inset 0 0 1px #DCA44E;
+      }
+    </style>
+    <!--scroll bar style-->
+
+    <title>2nd_salon</title>
+  
+  </head>
+  <body>
+
+    <!-- nav bar -->
+
+    <a class="navbar-brand" href="#">
+      <img src="img/nav_logo.svg" alt="">
+    </a>
+
+    <nav class="navbar navbar-expand-lg navbar-dark p-0">
+      <div class="container-fluid p-0">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="about_us.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SHOP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact_us.html">CONTACT</a>
+            </li>
+          </ul>
+          <button type="button" class="nav_calender_bt">
+            <img src="img/Calendar.svg" alt="">
+          </button>
+          <a href="contact_us.html#appointment">
+            <button type="button"  class="nav_booking_bt">
+              BOOK NOW
+            </button>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- nav bar end -->
+
+    <!-- carousel -->
+
+    <div id="carouselExampleIndicators" class="carousel slide"  data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="background-image: url(img/about_us/about_bg.jpg); height: 70vh;">
+          <div class="container-fluid carousel_tx">
+            <div class="row">
+              <div class="col-xxl-5 col-xl-5 col-lg-6 col-md-8 col-sm-10 col-12 crsl_tx_left" style="border-right: 2px solid white ;">
+                <img src="img/logo2.svg" alt="" class="mbl_logo d-none">
+                <h1 class="carousel_main_head">ABOUT US</h1>
+                <p class="carousel-tx">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                  Lorem Ipsum has been the industry's standard dummy text</p>                  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button> -->
+    </div>
+
+    <!-- carousel end -->
+
+    <!-- scroll -->
+
+    <button
+        type="button"
+        class="btn btn-lg"
+        id="btn-back-to-top"
+        >
+        <i class="fa fa-arrow-up"></i>
+    </button>
+
+    <!-- scroll -->
+
+    <!-- our story -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+          <div class="mt-5 our_story">
+            <h5 class="small_heading">
+              OUR STORY
+            </h5>
+            <h3 class="sub_heading">
+              REDEFINING THE BARBERSHOP EXPERIENCE 
+            </h3>
+          </div>
+          <div class="row mt-4">
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
+              <h5 class="small_heading">
+                2015-2019
+              </h5>
+            </div>
+            <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-10 col-10" style="text-align: justify;">
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                <br> <br> scrambled it to make a type specimen book. It has survived not only five centuries, 
+                <br> <br> but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,  
+              </p>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2 pe-0">
+              <h5 class="small_heading">
+                2019-2023
+              </h5>
+            </div>
+            <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-10 col-10" style="text-align: justify;">
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                <br> <br> scrambled it to make a type specimen book. It has survived not only five centuries, 
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 p-3">
+            <div class="story_img mt-4">
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- our story-->
+
+    <!-- why us -->
+
+    <div class="jarallax why_us_bg py-4" style="background-image: url(img/appointment_background.jpg);">
+      <div class="container">
+        <div class="why_us_heading text-center">
+          <h5 class="small_heading pt-5">
+            OUR STORY
+          </h5>
+          <h3 class="sub_heading">
+            REDEFINING THE BARBERSHOP EXPERIENCE 
+          </h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+            <div class="why_us text-center p-4">
+              <img src="img/about_us/why_us1.svg" alt="">
+              <h5 class="small_heading my-3" style="color: #303030; font-weight: bold;">SERVICE GUARANTEE</h5>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+            <div class="why_us text-center p-4">
+              <img src="img/about_us/why_us2.svg" alt="">
+              <h5 class="small_heading my-3" style="color: #303030; font-weight: bold;">HOT TOWEL FINISH</h5>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+            <div class="why_us text-center p-4">
+              <img src="img/about_us/why_us3.svg" alt="">
+              <h5 class="small_heading my-3" style="color: #303030; font-weight: bold;">FREE WIFI</h5>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+            <div class="why_us text-center p-4">
+              <img src="img/about_us/why_us4.svg" alt="">
+              <h5 class="small_heading my-3" style="color: #303030; font-weight: bold;">BEST EXPERIENCES</h5>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- why us end -->
+    
+    <!-- our team -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">
+          <div class="our_team">
+            <h5 class="small_heading">
+              OUR TEAM
+            </h5>
+            <h3 class="sub_heading">
+              MEET THE ARTISTS
+            </h3>
+            <p style="text-align: justify;">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+            </p>
+          </div>
+        </div>
+        <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12">
+          <div class="row">
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+              <div class="team position-relative">
+                <div class="team1">
+                  <div class="team_text">
+                    <h5 class="small_heading" style="color: white;">
+                      ORLADO EVANS
+                    </h5>
+                    <h5 class="small_heading">
+                      <i>Hairdresser</i>
+                    </h5>
+                    
+                    <div class="team_sm">
+                      <a href="#">
+                        <i class="fa fa-facebook"></i>
+                      </a>
+                      <a href="#">
+                        <i class="fa fa-instagram"></i>
+                      </a>
+                      <a href="#">
+                        <i class="fa fa-youtube"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ======================== -->
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+              <div class="team position-relative">
+                <div class="team2">
+                  <div class="team_text">
+                    <h5 class="small_heading" style="color: white;">
+                      LEE CORTER
+                    </h5>
+                    <h5 class="small_heading">
+                      <i>Tattoo Artist</i>
+                    </h5>
+                    
+                    <div class="team_sm">
+                      <a href="#">
+                        <i class="fa fa-facebook"></i>
+                      </a>
+                      <a href="#">
+                        <i class="fa fa-instagram"></i>
+                      </a>
+                      <a href="#">
+                        <i class="fa fa-youtube"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ======================== -->
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+              <div class="team position-relative">
+                <div class="team3">
+                  <div class="team_text">
+                    <h5 class="small_heading" style="color: white;">
+                      ALONZO WRIGHT
+                    </h5>
+                    <h5 class="small_heading">
+                      <i>Barber Artist</i>
+                    </h5>
+                    
+                    <div class="team_sm">
+                      <a href="#">
+                        <i class="fa fa-facebook"></i>
+                      </a>
+                      <a href="#">
+                        <i class="fa fa-instagram"></i>
+                      </a>
+                      <a href="#">
+                        <i class="fa fa-youtube"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ======================== -->
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+              <div class="team position-relative">
+                <div class="team4">
+                  <div class="team_text">
+                    <h5 class="small_heading" style="color: white;">
+                      HARVEY JONES
+                    </h5>
+                    <h5 class="small_heading">
+                      <i>Barber Artist</i>
+                    </h5>
+                    
+                    <div class="team_sm">
+                      <a href="#">
+                        <i class="fa fa-facebook"></i>
+                      </a>
+                      <a href="#">
+                        <i class="fa fa-instagram"></i>
+                      </a>
+                      <a href="#">
+                        <i class="fa fa-youtube"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- our team end -->
+
+
+    <!-- review -->
+
+    <div class="jarallax mt-4" style="background-image: url(img/feedback_bg.png);">
+      <div class="container">
+        <div class="row">
+          <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <img src="img/🦆 icon _quote-left_.svg" alt="" class="feedback_icon">
+              <div class="carousel-inner feedback">
+                <div class="carousel-item active">
+                  <h4 class="small_heading">
+                    WHAT CLIENTS SAY
+                  </h4>  
+                  <p class="pt-4">“Barbering is a craft and one of the oldest professions in the world.A refreshing beverage of your choice, and a hot towel finish – you’ll never want to leave.It’s not only a job. It’s a way of living.”</p>
+                  <h5 class="work pt-4">
+                    Jane Meldrum
+                  </h5>
+                  <div class="small-ratings pt-2">
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                </div>
+                <div class="carousel-item">
+                  <h4 class="small_heading">
+                    WHAT CLIENTS SAY
+                  </h4>  
+                  <p class="pt-4">“Barbering is a craft and one of the oldest professions in the world.A refreshing beverage of your choice, and a hot towel finish – you’ll never want to leave.It’s not only a job. It’s a way of living.”</p>
+                  <h5 class="work pt-4">
+                    Jane Meldrum
+                  </h5>
+                  <div class="small-ratings pt-2">
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                </div>
+                <div class="carousel-item">
+                  <h4 class="small_heading">
+                    WHAT CLIENTS SAY
+                  </h4>  
+                  <p class="pt-4">“Barbering is a craft and one of the oldest professions in the world.A refreshing beverage of your choice, and a hot towel finish – you’ll never want to leave.It’s not only a job. It’s a way of living.”</p>
+                  <h5 class="work pt-4">
+                    Jane Meldrum
+                  </h5>
+                  <div class="small-ratings pt-2">
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                </div>
+              </div>
+              <div class="feedback_arrows">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true">
+                    <img src="img/left_arrow.svg" alt="">
+                  </span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true">
+                    <img src="img/right_arrow.svg" alt="">
+                  </span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-4 feedback_img">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- review end -->
+
+    <!-- offer -->
+
+    <div class="container-fluid offer jarallax" style="background-image: url(../img/about_us/offer_bg.jpg);">
+      <div class="row">
+        <div class="offer_tx">
+          <h1 class="carousel_main_head">GET 20% OFF</h1>
+          <h1 class="carousel_sub_head">ON YOUR FIRST ONLINE APPOINTMENT</h1>
+        </div>
+        <div class="row text-end" style="margin-top: 160px;">
+          <a href="contact_us.html#appointment">
+            <button type="button" class="system_bt" style="background-color: #30303000 !important; color: white; width: 230px;" > 
+              MAKE AN APPOINTMENT
+            </button>
+          </a>
+        </div>
+      </div> 
+    </div>
+
+    <!-- offer end -->
+
+    <!-- footer -->
+
+    <div class="container-fluid footer p-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 footer_sec">
+            <div class="footer_contact mt-4">
+              <h6 class="small_heading">CONTACT US</h6>
+              <p class="footer_num"><a href="tel:+94256365225">+94 256 365 225</a> /
+                <a href="tel:++94254154269">+94 254 154 269</a></p>
+            </div>
+            <div class="footer_social_icn mt-4">
+              <h6 class="small_heading">FOLLOW US ON</h6>
+              <a href="#"><img src="img/fb.svg" alt=""></a>
+              <a href="#"><img src="img/tweeter.svg" alt=""></a>
+              <a href="#"><img src="img/TikTok.svg" alt=""></a>
+              <a href="#"><img src="img/Instagram.svg" alt=""></a>
+            </div>
+          </div>
+          <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 footer_sec">
+            <div class="footer_logo text-center">
+              <img src="img/footer_logo.svg" alt="">
+              <p>Lorem ipsum dolor sit amet consectetur</p>
+            </div>
+          </div>
+          <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4  col-sm-12 col-12">
+            <div class="footer_contact mt-4 ms-5">
+              <h6 class="small_heading">VISIT US</h6>
+              <p>10 West Chestnut ave, Clarksburg </p>
+              <h6 class="small_heading">OPENING HOURS</h6>
+              <p>Mon-Sun: 8:00AM - 7:00PM <br>
+                <span><i> Poya Day Open</i></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer end -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- jquary -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- owl carousel min js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+      <!-- init owl carousel -->
+      <script>
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+     }
+    })
+      </script>
+
+      
+
+      <!--jarallax js-->
+<script src="jarallax/jarallax_js.js"></script>
+<!--jarallax js-->
+
+<!--jarallax-->
+<script type="text/javascript">
+    /* init Jarallax */
+    $('.jarallax').jarallax({
+        speed: 0.5,
+        imgWidth: 1366,
+        imgHeight: 768
+    })
+</script>
+<!--jarallax-->
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+  <script>
+
+  let mybutton = document.getElementById("btn-back-to-top");
+  
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function () {
+    scrollFunction();
+  };
+  
+  function scrollFunction() {
+    if (
+      document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20
+    ) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  // When the user clicks on the button, scroll to the top of the document
+  mybutton.addEventListener("click", backToTop);
+  
+    function backToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  
+  </script>
+
+  </body>
+</html>

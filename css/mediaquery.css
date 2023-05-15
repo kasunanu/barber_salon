@@ -1,0 +1,269 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1920px) {
+
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1536px) {
+
+ 
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1280px) {
+
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+
+	
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1024px) {
+
+
+
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+
+  .carousel_main_head{
+    font-size: 55px;
+  }
+
+  .nav-item{
+    padding: 0;}
+  
+  /* .about_top_tx{
+    width: 450px;
+  } */
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  
+  .cntct_sec{
+    display: none;
+  }
+
+  /* .about_top_tx{
+    width: 300px;
+  } */
+
+  .about_logo{
+    display: none;
+  }
+
+  .about_bottom_tx{
+    position: relative;
+    left: -80px;
+  }
+
+  .price_bg_1, .price_bg2{
+    opacity: 0.1;
+  }
+
+  .booking_num {
+    position: absolute;
+    transform: rotate(270deg);
+    margin-top: 131px;
+    text-align: center;
+    left: -44px;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 767px) {
+  
+  .about_bottom_sec{
+    display: none;
+  }
+
+  .about_top_tx_mbl{
+    display: block;
+  }  
+
+  .about_img{
+    display: none;
+  }
+
+  .price_left{
+    padding: 0;
+  }
+
+  .price_right{
+    padding: 0 0 20px 0;
+  }
+  
+  .work_nature {
+    position: relative;
+    border-bottom: 1px #767676 dashed;
+    height: 43px;
+    }
+
+  .feedback_img{
+    display: none;
+  }
+
+  .feedback{
+    padding: 140px 40px;
+  }
+
+  .booking_num{
+    margin-top: 188px;
+    left: -73px;
+  }
+
+  .jarallax{
+    height: 680px;
+  }
+
+  .footer_sec{
+    border: none;
+  }
+
+  .footer_logo{
+    display: none;
+  }
+
+  .footer_contact{
+    margin-left: 0 !important;
+  }
+
+  .footer{
+    text-align: center;
+  }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+  .carousel-item {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position-x: -181px;
+}
+
+  .navbar-brand{
+    display: none;
+  }
+
+  .carousel-tx{
+    display: none;
+  }
+
+  .mbl_logo{
+    display: block !important;
+    width: 200px;
+    margin-left: -20px;
+    margin-top: 0px;
+  }
+
+  .carousel_sub_head{
+    font-size: 22px;
+  }
+
+  .carousel_main_head{
+    font-size: 35px;
+  }
+
+  .about_top{
+    padding-bottom: 0;
+  }
+
+  .service_heading{
+    text-align: center;
+  }
+
+  .service {
+    position: relative;
+    width: 100%;
+    height: 313px;
+    overflow: hidden;
+    border: 1px solid white;
+}
+
+  .booking_num{
+    display: none;
+  }     
+ 
+  .store_row .row {
+    --bs-gutter-x: -10.5rem;
+    --bs-gutter-y: 0;
+  }
+  
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 375px) {
+
+  .store_row .row {
+    --bs-gutter-x: -2.5rem;
+    --bs-gutter-y: 0;
+  }
+	
+
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+
+  .product {
+    text-align: center;
+    width: 240px;
+    border: 1px solid #DCA44E;
+}
+.about_top {
+  padding: 37px;
+}
+
+}
+
+
+@media only screen and (max-width : 320px) {
+
+  .carousel-item {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position-x: -181px;
+}
+
+  .crsl_tx_left {
+    padding-left: 25px;
+}
+
+.about_top {
+  padding: 22px;
+}   
+.store_row .row {
+  --bs-gutter-x: -2.5rem;
+  --bs-gutter-y: 0;
+} 
+
+.product {
+  text-align: center;
+  width: 230px;
+  border: 1px solid #DCA44E;
+}
+
+}

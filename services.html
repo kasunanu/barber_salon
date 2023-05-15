@@ -1,0 +1,688 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- costem css -->
+    <link rel="stylesheet" href="css/salon.css">
+    <!-- costem css -->
+
+    <!-- font awsom -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- font awsom -->
+
+    <!-- owl carousel min css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- owl carousel min css -->
+
+    <!-- owl carousel theme css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- owl carousel theme css -->
+
+    <!--jarallax js & css-->
+    <link href="jarallax/jarallax_css.css" rel="stylesheet" type="text/css" media="screen">
+    <!--jarallax js & css-->
+
+    <!-- mediaquery css -->
+    <link rel="stylesheet" href="css/mediaquery.css">
+    <!-- mediaquery css -->
+
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="img/favicon.svg" />
+    <!--favicon-->
+
+    <!--scroll bar style-->
+    <style>
+      ::-webkit-scrollbar {
+        width: 1px;
+      }
+
+      ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 0px #DCA44E;
+        border-radius: 0px;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        border-radius: 0px;
+        background-color: #DCA44E;
+        -webkit-box-shadow: inset 0 0 1px #DCA44E;
+      }
+    </style>
+    <!--scroll bar style-->
+
+    <title>2nd_salon</title>
+  
+  </head>
+  <body>
+
+    <!-- nav bar -->
+
+    <a class="navbar-brand" href="#">
+      <img src="img/nav_logo.svg" alt="">
+    </a>
+
+    <nav class="navbar navbar-expand-lg navbar-dark p-0">
+      <div class="container-fluid p-0">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about_us.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page"  href="services.html">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SHOP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact_us.html">CONTACT</a>
+            </li>
+          </ul>
+          <button type="button" class="nav_calender_bt">
+            <img src="img/Calendar.svg" alt="">
+          </button>
+          <a href="contact_us.html#appointment">
+            <button type="button"  class="nav_booking_bt">
+              BOOK NOW
+            </button>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- nav bar end -->
+
+    <!-- carousel -->
+
+    <div id="carouselExampleIndicators" class="carousel slide"  data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="background-image: url(img/services/slider.jpg); height: 70vh;">
+          <div class="container-fluid carousel_tx">
+            <div class="row">
+              <div class="col-xxl-5 col-xl-5 col-lg-6 col-md-8 col-sm-10 col-12 crsl_tx_left" style="border-right: 2px solid white ;">
+                <img src="img/logo2.svg" alt="" class="mbl_logo d-none">
+                <h1 class="carousel_main_head">SERVICES</h1>
+                <p class="carousel-tx">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                  Lorem Ipsum has been the industry's standard dummy text</p>                  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button> -->
+    </div>
+
+    <!-- carousel end -->
+
+    <!-- scroll -->
+
+    <button
+        type="button"
+        class="btn btn-lg"
+        id="btn-back-to-top"
+        >
+        <i class="fa fa-arrow-up"></i>
+    </button>
+
+    <!-- scroll -->
+
+    <!-- our services -->
+
+    <div class="container pt-5 p-0 service_heading">
+          <h5 class="small_heading">
+            OUR SERVICES
+          </h5>
+          <h3 class="sub_heading">
+            A RANGE OF PREMIU <br> BARBER SERVICES
+          </h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has <br>
+            been the industry's standard dummy text ever since the 1500s
+          </p>
+    </div>
+    
+    <div class="container-fluid">
+          <div class="row">
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 p-0">
+              <div class="service">
+                <div class="service_img">
+                  <img src="img/services1.png" alt="">
+                </div>
+                <div class="service_tx">
+                  <img src="img/services1.svg" alt="">
+                  <h5 class="small_heading pt-3">
+                    <b>HAIR CUT</b>
+                  </h5>
+                  <P>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                  </P>
+                </div>
+              </div>
+            </div>
+            <!-- =================================== -->
+    
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 p-0">
+              <div class="service">
+                <div class="service_img">
+                  <img src="img/services2.png" alt="">
+                </div>
+                <div class="service_tx">
+                  <img src="img/services2.svg" alt="">
+                  <h5 class="small_heading pt-3">
+                    <b>ROYAL SHAVING</b>
+                  </h5>
+                  <P>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                  </P>
+                </div>
+              </div>
+            </div>
+            <!-- =================================== -->
+    
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 p-0">
+              <div class="service">
+                <div class="service_img">
+                  <img src="img/services3.png" alt="">
+                </div>
+                <div class="service_tx">
+                  <img src="img/services3.svg" alt="">
+                  <h5 class="small_heading pt-3">
+                    <b>STYLING</b>
+                  </h5>
+                  <P>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                  </P>
+                </div>
+              </div>
+            </div>
+            <!-- =================================== -->
+    
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 p-0">
+              <div class="service">
+                <div class="service_img">
+                  <img src="img/services4.png" alt="">
+                </div>
+                <div class="service_tx">
+                  <img src="img/services4.svg" alt="">
+                  <h5 class="small_heading pt-3">
+                    <b>BARBER-SPA</b>
+                  </h5>
+                  <P>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                  </P>
+                </div>
+              </div>
+            </div>
+            <!-- =================================== -->
+            
+          </div>
+    </div>
+    
+    <!-- our services end -->
+      
+    <!-- hair cut -->
+
+    <div class="container">
+      <div class="service_head" id="hair_cut">
+        <h3 class="sub_heading mt-5 mb-4">
+          HAIR CUT
+        </h3>
+      </div>
+      <div class="row">
+
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 p-0">
+          <div class="hair_img" style="background-image: url(img/services/hair1.jpg);"></div>
+          <div class="service_txt">
+              <h5 class="work">
+                CLASSIC CUT
+              </h5>
+              <P>
+                Lorem Ipsum is simply dummy text
+              </P>
+              <h3 class="price">
+                $15
+              </h3>
+            </div>
+            <br>
+        </div>
+        
+        <!-- ====================== -->
+
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 p-0">
+          <div class="hair_img" style="background-image: url(img/services/hair2.jpg);"></div>
+          <div class="service_txt">
+              <h5 class="work">
+                BUZZ CUT
+              </h5>
+              <P>
+                Lorem Ipsum is simply dummy text
+              </P>
+              <h3 class="price">
+                $17
+              </h3>
+            </div>
+            <br>
+        </div>
+
+        <!-- ====================== -->
+
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 p-0">
+          <div class="hair_img" style="background-image: url(img/services/hair3.jpg);"></div>
+          <div class="service_txt">
+              <h5 class="work">
+                TO BE MAN
+              </h5>
+              <P>
+                Lorem Ipsum is simply dummy text
+              </P>
+              <h3 class="price">
+                $20
+              </h3>
+            </div>
+            <br>
+        </div>
+
+        <!-- ====================== -->
+
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 p-0">
+          <div class="hair_img" style="background-image: url(img/services/hair4.jpg);"></div>
+          <div class="service_txt">
+              <h5 class="work">
+                CUT AND WASH
+              </h5>
+              <P>
+                Lorem Ipsum is simply dummy text
+              </P>
+              <h3 class="price">
+                $25
+              </h3>
+            </div>
+            <br>
+        </div>
+      </div>
+    </div>
+
+    <!-- hair cut end -->
+
+    <!-- royal shaving -->
+    
+    <div class="container">
+      <div class="service_head" id="shaving">
+        <h3 class="sub_heading mt-5 mb-4">
+          ROYAL SHAVING
+        </h3>
+      </div>
+      <div class="row">
+
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 p-0">
+          <div class="hair_img" style="background-image: url(img/services/shaving1.jpg);"></div>
+          <div class="service_txt">
+              <h5 class="work">
+                CLASSIC SHAVE
+              </h5>
+              <P>
+                Lorem Ipsum is simply dummy text
+              </P>
+              <h3 class="price">
+                $17
+              </h3>
+            </div>
+            <br>
+        </div>
+        
+        <!-- ====================== -->
+
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 p-0">
+          <div class="hair_img" style="background-image: url(img/services/shaving2.jpg);"></div>
+          <div class="service_txt">
+              <h5 class="work">
+                DELUXE SHAVE
+              </h5>
+              <P>
+                Lorem Ipsum is simply dummy text
+              </P>
+              <h3 class="price">
+                $17
+              </h3>
+            </div>
+            <br>
+        </div>
+
+        <!-- ====================== -->
+
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 p-0">
+          <div class="service_lg_img" style="background-image: url(img/services/shaving3.jpg);"></div>
+          <div class="service_txt_lg">
+              <h5 class="work">
+                DELUXE SHAVE
+              </h5>
+              <P>
+                Lorem Ipsum is simply dummy text
+              </P>
+              <h3 class="price">
+                $17
+              </h3>
+            </div>
+            <br>
+        </div>
+      </div>
+    </div>
+
+    <!-- royal shaving end -->
+
+    <!-- styling -->
+    
+    <div class="container">
+      <div class="service_head" id="styling">
+        <h3 class="sub_heading mt-5 mb-4">
+          STYLING
+        </h3>
+      </div>
+      <div class="row">
+
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 p-0">
+          <div class="service_lg_img" style="background-image: url(img/services/styling1.jpg);"></div>
+          <div class="service_txt_lg">
+              <h5 class="work">
+                DELUXE SHAVE
+              </h5>
+              <P>
+                Lorem Ipsum is simply dummy text
+              </P>
+              <h3 class="price">
+                $17
+              </h3>
+            </div>
+            <br>
+        </div>
+
+        <!-- ====================== -->
+
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 p-0">
+          <div class="hair_img" style="background-image: url(img/services/styling2.jpg);"></div>
+          <div class="service_txt">
+              <h5 class="work">
+                CLASSIC SHAVE
+              </h5>
+              <P>
+                Lorem Ipsum is simply dummy text
+              </P>
+              <h3 class="price">
+                $17
+              </h3>
+            </div>
+            <br>
+        </div>
+        
+        <!-- ====================== -->
+
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 p-0">
+          <div class="hair_img" style="background-image: url(img/services/styling3.jpg);"></div>
+          <div class="service_txt">
+              <h5 class="work">
+                DELUXE SHAVE
+              </h5>
+              <P>
+                Lorem Ipsum is simply dummy text
+              </P>
+              <h3 class="price">
+                $17
+              </h3>
+            </div>
+            <br>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- styling end -->
+
+    <!-- spa -->
+
+    <div class="container">
+      <div class="service_head" id="spa">
+        <h3 class="sub_heading mt-5 mb-4">
+          BARBER SPA
+        </h3>
+      </div>
+      <div class="row">
+
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 p-0">
+          <div class="hair_img" style="background-image: url(img/services/spa1.jpg);"></div>
+          <div class="service_txt">
+              <h5 class="work">
+                BRO WAX
+              </h5>
+              <P>
+                Lorem Ipsum is simply dummy text
+              </P>
+              <h3 class="price">
+                $15
+              </h3>
+            </div>
+            <br>
+        </div>
+        
+        <!-- ====================== -->
+
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 p-0">
+          <div class="hair_img" style="background-image: url(img/services/spa2.jpg);"></div>
+          <div class="service_txt">
+              <h5 class="work">
+               DUDE FACIAL
+              </h5>
+              <P>
+                Lorem Ipsum is simply dummy text
+              </P>
+              <h3 class="price">
+                $17
+              </h3>
+            </div>
+            <br>
+        </div>
+
+        <!-- ====================== -->
+
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 p-0">
+          <div class="hair_img" style="background-image: url(img/services/hair3.jpg);"></div>
+          <div class="service_txt">
+              <h5 class="work">
+                CLEAN UP
+              </h5>
+              <P>
+                Lorem Ipsum is simply dummy text
+              </P>
+              <h3 class="price">
+                $20
+              </h3>
+            </div>
+            <br>
+        </div>
+
+        <!-- ====================== -->
+
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 p-0">
+          <div class="hair_img" style="background-image: url(img/services/spa4.jpg);"></div>
+          <div class="service_txt">
+              <h5 class="work">
+                HOT TOWEL
+              </h5>
+              <P>
+                Lorem Ipsum is simply dummy text
+              </P>
+              <h3 class="price">
+                $25
+              </h3>
+            </div>
+            <br>
+        </div>
+      </div>
+    </div>
+
+    <!-- spa end -->
+
+    <!-- offer -->
+
+    <div class="container-fluid offer jarallax" style="background-image: url(img/services/appointment.jpg);">
+      <div class="row">
+        <div class="offer_tx">
+          <h1 class="carousel_main_head">GET 20% OFF</h1>
+          <h1 class="carousel_sub_head">ON YOUR FIRST ONLINE APPOINTMENT</h1>
+        </div>
+        <div class="row text-end" style="margin-top: 160px;">
+          <a href="contact_us.html#appointment">
+            <button type="button" class="system_bt" style="background-color: #30303000 !important; color: white; width: 230px;" > 
+              MAKE AN APPOINTMENT
+            </button>
+          </a>
+        </div>
+      </div> 
+    </div>
+
+    <!-- offer end -->
+
+    <!-- footer -->
+
+    <div class="container-fluid footer p-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 footer_sec">
+            <div class="footer_contact mt-4">
+              <h6 class="small_heading">CONTACT US</h6>
+              <p class="footer_num"><a href="tel:+94256365225">+94 256 365 225</a> /
+                <a href="tel:++94254154269">+94 254 154 269</a></p>
+            </div>
+            <div class="footer_social_icn mt-4">
+              <h6 class="small_heading">FOLLOW US ON</h6>
+              <a href="#"><img src="img/fb.svg" alt=""></a>
+              <a href="#"><img src="img/tweeter.svg" alt=""></a>
+              <a href="#"><img src="img/TikTok.svg" alt=""></a>
+              <a href="#"><img src="img/Instagram.svg" alt=""></a>
+            </div>
+          </div>
+          <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 footer_sec">
+            <div class="footer_logo text-center">
+              <img src="img/footer_logo.svg" alt="">
+              <p>Lorem ipsum dolor sit amet consectetur</p>
+            </div>
+          </div>
+          <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4  col-sm-12 col-12">
+            <div class="footer_contact mt-4 ms-5">
+              <h6 class="small_heading">VISIT US</h6>
+              <p>10 West Chestnut ave, Clarksburg </p>
+              <h6 class="small_heading">OPENING HOURS</h6>
+              <p>Mon-Sun: 8:00AM - 7:00PM <br>
+                <span><i> Poya Day Open</i></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer end -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- jquary -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- owl carousel min js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+      <!-- init owl carousel -->
+      <script>
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+     }
+    })
+      </script>
+
+      <script>
+
+let mybutton = document.getElementById("btn-back-to-top");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 20 ||
+    document.documentElement.scrollTop > 20
+  ) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+// When the user clicks on the button, scroll to the top of the document
+mybutton.addEventListener("click", backToTop);
+
+  function backToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+      </script>
+      
+
+      <!--jarallax js-->
+<script src="jarallax/jarallax_js.js"></script>
+<!--jarallax js-->
+
+<!--jarallax-->
+<script type="text/javascript">
+    /* init Jarallax */
+    $('.jarallax').jarallax({
+        speed: 0.5,
+        imgWidth: 1366,
+        imgHeight: 768
+    })
+</script>
+<!--jarallax-->
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+  </body>
+</html>

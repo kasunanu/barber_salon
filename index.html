@@ -1,0 +1,990 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- costem css -->
+    <link rel="stylesheet" href="css/salon.css">
+    <!-- costem css -->
+
+    <!-- font awsom -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- font awsom -->
+
+    <!-- owl carousel min css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- owl carousel min css -->
+
+    <!-- owl carousel theme css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- owl carousel theme css -->
+
+    <!--jarallax js & css-->
+    <link href="jarallax/jarallax_css.css" rel="stylesheet" type="text/css" media="screen">
+    <!--jarallax js & css-->
+
+    <!-- mediaquery css -->
+    <link rel="stylesheet" href="css/mediaquery.css">
+    <!-- mediaquery css -->
+
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="img/favicon.svg" />
+    <!--favicon-->
+
+    <!--scroll bar style-->
+    <style>
+      ::-webkit-scrollbar {
+        width: 1px;
+      }
+
+      ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 0px #DCA44E;
+        border-radius: 0px;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        border-radius: 0px;
+        background-color: #DCA44E;
+        -webkit-box-shadow: inset 0 0 1px #DCA44E;
+      }
+    </style>
+    <!--scroll bar style-->
+
+    <title>2nd_salon</title>
+  
+  </head>
+  <body>
+
+    <!-- nav bar -->
+
+    <a class="navbar-brand" href="#">
+      <img src="img/nav_logo.svg" alt="">
+    </a>
+
+    <nav class="navbar navbar-expand-lg navbar-dark p-0">
+      <div class="container-fluid p-0">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about_us.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SHOP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact_us.html">CONTACT</a>
+            </li>
+          </ul>
+          <button type="button" class="nav_calender_bt">
+            <img src="img/Calendar.svg" alt="">
+          </button>
+          <a href="contact_us.html#appointment">
+            <button type="button"  class="nav_booking_bt">
+              BOOK NOW
+            </button>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- nav bar end -->
+
+    <!-- scroll -->
+
+    <button
+        type="button"
+        class="btn btn-lg"
+        id="btn-back-to-top"
+        >
+        <i class="fa fa-arrow-up"></i>
+    </button>
+
+    <!-- scroll -->
+
+    <!-- carousel -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators justify-content-end">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="background-image: url(img/slider.jpg);">
+          <div class="container-fluid carousel_tx">
+            <div class="row">
+              <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 crsl_tx_left">
+                <img src="img/logo2.svg" alt="" class="mbl_logo d-none">
+                <h1 class="carousel_sub_head">MORE THAN JUST A MEN’S</h1>
+                <h1 class="carousel_main_head">HAIRDRESSER</h1>
+                <p class="carousel-tx">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                  Lorem Ipsum has been the industry's standard dummy text</p>                  
+                  
+                  <a href="about_us.html" class="carousel_read_bt">
+                    Read More
+                    <img src="img/Arrow.svg" alt="">
+                  </a>
+
+              </div>
+      
+              <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 cntct_sec">
+                <div class="row">
+                  <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                    <div class="crsl_contact">
+                      <h6 class="crsl_sm_head">BOOKING NUMBERS</h6>
+                      <p class="carousel-tx">
+                        <a href="tel:+94256365225">+94 256 365 225</a> /
+                        <a href="tel:++94254154269">+94 254 154 269</a>
+                      </p>
+                    </div>
+                    <div class="crsl_location">
+                      <h6 class="crsl_sm_head">LOCATION</h6>
+                      <p class="carousel-tx">10 West Chestnut ave, Clarksburg </p>
+                    </div>
+                  </div>
+                  <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                    <div class="crsl_hours">
+                      <h6 class="crsl_sm_head">OPENING HOURS</h6>
+                      <p class="carousel-tx">Mon-Sun: 8:00AM - 7:00PM <br>
+                        <span><i>Poya Day Open</i></span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- =========== -->
+
+        <div class="carousel-item" style="background-image: url(img/slider2.jpg);">
+          <div class="container-fluid carousel_tx">
+            <div class="row">
+              <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 crsl_tx_left">
+                <img src="img/logo2.svg" alt="" class="mbl_logo d-none">
+                <h1 class="carousel_sub_head">MORE THAN JUST A MEN’S</h1>
+                <h1 class="carousel_main_head">HAIRDRESSER</h1>
+                <p class="carousel-tx">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                  Lorem Ipsum has been the industry's standard dummy text</p>                  
+                  
+                  <a href="about_us.html" class="carousel_read_bt">
+                    Read More
+                    <img src="img/Arrow.svg" alt="">
+                  </a>
+
+              </div>
+      
+              <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 cntct_sec">
+                <div class="row">
+                  <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                    <div class="crsl_contact">
+                      <h6 class="crsl_sm_head">BOOKING NUMBERS</h6>
+                      <p class="carousel-tx">
+                        <a href="tel:+94256365225">+94 256 365 225</a> /
+                        <a href="tel:++94254154269">+94 254 154 269</a>
+                    </div>
+                    <div class="crsl_location">
+                      <h6 class="crsl_sm_head">LOCATION</h6>
+                      <p class="carousel-tx">10 West Chestnut ave, Clarksburg </p>
+                    </div>
+                  </div>
+                  <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                    <div class="crsl_hours">
+                      <h6 class="crsl_sm_head">OPENING HOURS</h6>
+                      <p class="carousel-tx">Mon-Sun: 8:00AM - 7:00PM <br>
+                        <span><i>Poya Day Open</i></span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- =========== -->
+
+        <div class="carousel-item" style="background-image: url(img/slider3.jpg);">
+          <div class="container-fluid carousel_tx">
+            <div class="row">
+              <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 crsl_tx_left">
+                <img src="img/logo2.svg" alt="" class="mbl_logo d-none">
+                <h1 class="carousel_sub_head">MORE THAN JUST A MEN’S</h1>
+                <h1 class="carousel_main_head">HAIRDRESSER</h1>
+                <p class="carousel-tx">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                  Lorem Ipsum has been the industry's standard dummy text</p>                  
+                  
+                  <a href="about_us.html" class="carousel_read_bt">
+                    Read More
+                    <img src="img/Arrow.svg" alt="">
+                  </a>
+
+              </div>
+      
+              <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 cntct_sec">
+                <div class="row">
+                  <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                    <div class="crsl_contact">
+                      <h6 class="crsl_sm_head">BOOKING NUMBERS</h6>
+                      <p class="carousel-tx">
+                        <a href="tel:+94256365225">+94 256 365 225</a> /
+                        <a href="tel:++94254154269">+94 254 154 269</a>
+                    </div>
+                    <div class="crsl_location">
+                      <h6 class="crsl_sm_head">LOCATION</h6>
+                      <p class="carousel-tx">10 West Chestnut ave, Clarksburg </p>
+                    </div>
+                  </div>
+                  <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                    <div class="crsl_hours">
+                      <h6 class="crsl_sm_head">OPENING HOURS</h6>
+                      <p class="carousel-tx">Mon-Sun: 8:00AM - 7:00PM <br>
+                        <span><i>Poya Day Open</i></span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+      <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button> -->
+    </div>
+
+    <!-- carousel end -->
+
+    <!-- about us -->
+
+    <div class="container">
+      <div class="row">
+
+        <!-- about top section -->
+
+        <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5 about_img">
+        </div>
+        <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12 about_top">
+          <h5 class="small_heading">
+            About Us
+          </h5>
+          <h3 class="sub_heading pb-3 about_heading">
+            SATISFYING ALL YOUR SHEAR DESIRES
+          </h3>
+          <p class="about_top_tx">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+            <br>
+            <br>
+            <span class="about_top_tx_mbl">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+            
+              <br>
+              <br>
+              <a href="#">
+                <button type="button" class="system_bt"> 
+                  LEARN MORE
+                </button>
+              </a>
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- about bottom section -->
+
+    <div class="container about_bottom_sec mb-5">
+      <div class="row about_bottom m-0 justify-content-end">
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 position-relative">
+          <img src="img/logo2.svg" alt="" class="about_logo">
+        </div>
+        <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-5">
+          <p class="about_bottom_tx">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            <br><br> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+          </p>
+          <a href="about_us.html">
+            <button type="button" class="system_bt about_learn_bt ms-2"> 
+              LEARN MORE
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- about us end-->
+
+    <!-- our services -->
+
+    <div class="container pt-5 p-0 service_heading">
+      <h5 class="small_heading">
+        OUR SERVICES
+      </h5>
+      <h3 class="sub_heading">
+        A RANGE OF PREMIU <br> BARBER SERVICES
+      </h3>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has <br>
+        been the industry's standard dummy text ever since the 1500s
+      </p>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 p-0">
+          <a href="services.html#hair_cut">
+            <div class="service">
+              <div class="service_img">
+                <img src="img/services1.png" alt="">
+              </div>
+              <div class="service_tx">
+                <img src="img/services1.svg" alt="">
+                <h5 class="small_heading pt-3">
+                  <b>HAIR CUT</b>
+                </h5>
+                <P>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                </P>
+              </div>
+            </div>
+          </a>
+          
+        </div>
+        <!-- =================================== -->
+
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 p-0">
+          <a href="services.html#shaving">
+            <div class="service">
+              <div class="service_img">
+                <img src="img/services2.png" alt="">
+              </div>
+              <div class="service_tx">
+                <img src="img/services2.svg" alt="">
+                <h5 class="small_heading pt-3">
+                  <b>ROYAL SHAVING</b>
+                </h5>
+                <P>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                </P>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- =================================== -->
+
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 p-0">
+          <a href="services.html#styling">
+            <div class="service">
+              <div class="service_img">
+                <img src="img/services3.png" alt="">
+              </div>
+              <div class="service_tx">
+                <img src="img/services3.svg" alt="">
+                <h5 class="small_heading pt-3">
+                  <b>STYLING</b>
+                </h5>
+                <P>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                </P>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- =================================== -->
+
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 p-0">
+          <a href="services.html#spa">
+            <div class="service">
+              <div class="service_img">
+                <img src="img/services4.png" alt="">
+              </div>
+              <div class="service_tx">
+                <img src="img/services4.svg" alt="">
+                <h5 class="small_heading pt-3">
+                  <b>BARBER-SPA</b>
+                </h5>
+                <P>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                </P>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- =================================== -->
+        
+      </div>
+    </div>
+
+    <!-- our services end -->
+
+    <!-- our prices -->
+
+    <div class="container-fluid mt-5 position-relative">
+      <img src="img/price_bg1.png" alt="" class="price_bg_1">
+      <div class="text-center">
+        <h5 class="small_heading ">
+          OUR PRICES
+        </h5>
+        <h3 class="sub_heading">
+          INVESTMENT ON LOOKING YOUR BEST
+        </h3>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+        </p>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ">
+            <div class="price_left">
+              <div class="work_nature">
+                <h5 class="work">
+                  CLASSIC CUT
+                </h5>
+                <P>
+                  Lorem Ipsum is simply dummy text
+                </P>
+                <h3 class="price">
+                  $15
+                </h3>
+              </div>
+              <div class="work_nature">
+                <h5 class="work">
+                  BUZZ CUT
+                </h5>
+                <P>
+                  Lorem Ipsum is simply dummy text
+                </P>
+                <h3 class="price">
+                  $17
+                </h3>
+              </div>
+              <div class="work_nature">
+                <h5 class="work">
+                  TO BE MAN
+                </h5>
+                <P>
+                  Lorem Ipsum is simply dummy text
+                </P>
+                <h3 class="price">
+                  $20
+                </h3>
+              </div>
+              <div class="work_nature">
+                <h5 class="work">
+                  CUT AND WASH
+                </h5>
+                <P>
+                  Lorem Ipsum is simply dummy text
+                </P>
+                <h3 class="price">
+                  $25
+                </h3>
+              </div>
+              <div class="work_nature">
+                <h5 class="work">
+                  CLASSIC SHAVE
+                </h5>
+                <P>
+                  Lorem Ipsum is simply dummy text
+                </P>
+                <h3 class="price">
+                  $17
+                </h3>
+              </div>
+            </div>  
+          </div>
+          <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="price_right">
+              <div class="work_nature">
+                <h5 class="work">
+                  DELUXE SHAVE
+                </h5>
+                <P>
+                  Lorem Ipsum is simply dummy text
+                </P>
+                <h3 class="price">
+                  $18
+                </h3>
+              </div>
+              <div class="work_nature">
+                <h5 class="work">
+                  DUDE FACIAL
+                </h5>
+                <P>
+                  Lorem Ipsum is simply dummy text
+                </P>
+                <h3 class="price">
+                  $25
+                </h3>
+              </div>
+              <div class="work_nature">
+                <h5 class="work">
+                  HOT TOWEL
+                </h5>
+                <P>
+                  Lorem Ipsum is simply dummy text
+                </P>
+                <h3 class="price">
+                  $12
+                </h3>
+              </div>
+              <div class="work_nature">
+                <h5 class="work">
+                  CLEAN UP
+                </h5>
+                <P>
+                  Lorem Ipsum is simply dummy text
+                </P>
+                <h3 class="price">
+                  $21
+                </h3>
+              </div>
+              <div class="work_nature">
+                <h5 class="work">
+                  BROW WAX
+                </h5>
+                <P>
+                  Lorem Ipsum is simply dummy text
+                </P>
+                <h3 class="price">
+                  $18
+                </h3>
+              </div>
+            </div>
+            <div class="m-auto text-end">
+              <a href="services.html#hair_cut">
+                <button type="button" class="system_bt "> 
+                  LEARN MORE
+                </button>
+              </a>
+            </div>
+          </div>  
+        </div>
+      </div>
+
+      <img src="img/price_bg2.png" alt="" class="price_bg2">
+    </div>
+
+    <!-- our prices end-->
+
+    <!-- store -->
+
+    <div class="container-fluid">
+      <div class="text-center mt-5 store_heading">
+        <h5 class="small_heading ">
+          STORE
+        </h5>
+        <h3 class="sub_heading">
+          INVESTMENT ON LOOKING YOUR BEST
+        </h3>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+        </p>
+      </div>
+      <div class="container store_row">
+        <div class="row">
+          <div class="owl-carousel owl-theme">
+            <div class="item product">
+              <img src="img/product1.png" alt="" class="product_img">
+              <h5 class="small_heading">
+                <b>HAIR CUT</b>
+              </h5>
+              <p>
+                Lorem Ipsum is simply dummy <br> text of the printing              
+              </p>
+              <h3 class="store_price">$20</h3>
+              <a href="#">
+                <button type="button" class="shop_bt">
+                  SHOP NOW
+                </button>
+              </a>
+            </div>
+            <div class="item product">
+              <img src="img/product2.png" alt="" class="product_img">
+              <h5 class="small_heading">
+                <b>BEARD OIL</b>
+              </h5>
+              <p>
+                Lorem Ipsum is simply dummy <br> text of the printing              
+              </p>
+              <h3 class="store_price">$20</h3>
+              <a href="#">
+                <button type="button" class="shop_bt">
+                  SHOP NOW
+                </button>
+              </a>
+            </div>
+            <div class="item product">
+              <img src="img/product3.png" alt="" class="product_img">
+              <h5 class="small_heading">
+                <b>SHAMPOO</b>
+              </h5>
+              <p>
+                Lorem Ipsum is simply dummy <br> text of the printing              
+              </p>
+              <h3 class="store_price">$20</h3>
+              <a href="#">
+                <button type="button" class="shop_bt">
+                  SHOP NOW
+                </button>
+              </a>
+            </div>
+            <div class="item product">
+              <img src="img/product4.png" alt="" class="product_img">
+              <h5 class="small_heading">
+                <b>ROLL BRUSH</b>
+              </h5>
+              <p>
+                Lorem Ipsum is simply dummy <br> text of the printing              
+              </p>
+              <h3 class="store_price">$20</h3>
+              <a href="#">
+                <button type="button" class="shop_bt">
+                  SHOP NOW
+                </button>
+              </a>
+            </div>
+            <div class="item product">
+              <img src="img/product2.png" alt="" class="product_img">
+              <h5 class="small_heading">
+                <b>BEARD OIL</b>
+              </h5>
+              <p>
+                Lorem Ipsum is simply dummy <br> text of the printing              
+              </p>
+              <h3 class="store_price">$20</h3>
+              <a href="#">
+                <button type="button" class="shop_bt">
+                  SHOP NOW
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="m-auto text-end">
+            <a href="#">
+              <button type="button" class="system_bt "> 
+                SHOP MORE
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- store end -->
+
+    <!-- review -->
+
+    <div class="jarallax mt-4" style="background-image: url(img/feedback_bg.png);">
+      <div class="container">
+        <div class="row">
+          <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <img src="img/🦆 icon _quote-left_.svg" alt="" class="feedback_icon">
+              <div class="carousel-inner feedback">
+                <div class="carousel-item active">
+                  <h4 class="small_heading">
+                    WHAT CLIENTS SAY
+                  </h4>  
+                  <p class="pt-4">“Barbering is a craft and one of the oldest professions in the world.A refreshing beverage of your choice, and a hot towel finish – you’ll never want to leave.It’s not only a job. It’s a way of living.”</p>
+                  <h5 class="work pt-4">
+                    Jane Meldrum
+                  </h5>
+                  <div class="small-ratings pt-2">
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                </div>
+                <div class="carousel-item">
+                  <h4 class="small_heading">
+                    WHAT CLIENTS SAY
+                  </h4>  
+                  <p class="pt-4">“Barbering is a craft and one of the oldest professions in the world.A refreshing beverage of your choice, and a hot towel finish – you’ll never want to leave.It’s not only a job. It’s a way of living.”</p>
+                  <h5 class="work pt-4">
+                    Jane Meldrum
+                  </h5>
+                  <div class="small-ratings pt-2">
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                </div>
+                <div class="carousel-item">
+                  <h4 class="small_heading">
+                    WHAT CLIENTS SAY
+                  </h4>  
+                  <p class="pt-4">“Barbering is a craft and one of the oldest professions in the world.A refreshing beverage of your choice, and a hot towel finish – you’ll never want to leave.It’s not only a job. It’s a way of living.”</p>
+                  <h5 class="work pt-4">
+                    Jane Meldrum
+                  </h5>
+                  <div class="small-ratings pt-2">
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                </div>
+              </div>
+              <div class="feedback_arrows">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true">
+                    <img src="img/left_arrow.svg" alt="">
+                  </span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true">
+                    <img src="img/right_arrow.svg" alt="">
+                  </span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-4 feedback_img">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- review end -->
+
+    <!-- appointment -->
+
+    <div class="jarallax appointment_bg" style="background-image: url(img/appointment_background.jpg);">
+      <div class="container">
+        <div class="row">
+          <div class="appointent_header text-center mt-5">
+            <h5 class="small_heading ">
+               ONLINE BOOK
+            </h5>
+            <h3 class="sub_heading">
+              MAKE AN APPOINTMENT
+            </h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+            </p>
+            </div>
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-1">
+              <div class="booking_num">
+                <h5 class="small_heading ">
+                  BOOKING NUMBERS
+                </h5>
+                <H5 class="appointment_num">
+                  <a href="tel:+94256365225">+94 256 365 225</a> /
+                  <a href="tel:++94254154269">+94 254 154 269</a> 
+                </H5>
+              </div>
+            </div>
+            <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-11">
+              <div class="row mt-4">
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="Your Name">
+                    <label for="floatingInput"> <img src="img/name.svg" alt="" class="form_icn"> Your Name </label>
+                  </div>
+                </div>
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput"> <img src="img/email.svg" alt="" class="form_icn"> Email Address</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="Phone Number">
+                    <label for="floatingInput"> <img src="img/phone.svg" alt="" class="form_icn"> Phone Number </label>
+                  </div>
+                </div>
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="date">
+                    <label for="floatingInput"> <img src="img/date.svg" alt="" class="form_icn"> mm/dd/yyyy</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-floating">
+                  <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                    <option selected>Service</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                  <label for="floatingSelect"></label>
+                </div>
+              </div>
+              <div class="form-floating mt-3">
+                <textarea class="form-control" placeholder="Comments" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea"> <img src="img/message.svg" alt="" class="form_icn"> Comments</label>
+              </div>
+            </div>
+        </div>
+        <div class="mt-4 text-center">
+          <a href="#">
+            <button type="button" class="system_bt"> 
+              SUBMIT NOW
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+   
+    <!-- appointment end -->
+
+    <!-- footer -->
+
+    <div class="container-fluid footer p-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 footer_sec">
+            <div class="footer_contact mt-4">
+              <h6 class="small_heading">CONTACT US</h6>
+              <p class="footer_num"><a href="tel:+94256365225">+94 256 365 225</a> /
+                <a href="tel:++94254154269">+94 254 154 269</a></p>
+            </div>
+            <div class="footer_social_icn mt-4">
+              <h6 class="small_heading">FOLLOW US ON</h6>
+              <a href="#"><img src="img/fb.svg" alt=""></a>
+              <a href="#"><img src="img/tweeter.svg" alt=""></a>
+              <a href="#"><img src="img/TikTok.svg" alt=""></a>
+              <a href="#"><img src="img/Instagram.svg" alt=""></a>
+            </div>
+          </div>
+          <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 footer_sec">
+            <div class="footer_logo text-center">
+              <img src="img/footer_logo.svg" alt="">
+              <p>Lorem ipsum dolor sit amet consectetur</p>
+            </div>
+          </div>
+          <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4  col-sm-12 col-12">
+            <div class="footer_contact mt-4 ms-5">
+              <h6 class="small_heading">VISIT US</h6>
+              <p>10 West Chestnut ave, Clarksburg </p>
+              <h6 class="small_heading">OPENING HOURS</h6>
+              <p>Mon-Sun: 8:00AM - 7:00PM <br>
+                <span><i> Poya Day Open</i></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer end -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- jquary -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- owl carousel min js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+      <!-- init owl carousel -->
+      <script>
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+     }
+    })
+      </script>
+
+      
+
+      <!--jarallax js-->
+<script src="jarallax/jarallax_js.js"></script>
+<!--jarallax js-->
+
+<!--jarallax-->
+<script type="text/javascript">
+    /* init Jarallax */
+    $('.jarallax').jarallax({
+        speed: 0.5,
+        imgWidth: 1366,
+        imgHeight: 768
+    })
+</script>
+<!--jarallax-->
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<script>
+
+  let mybutton = document.getElementById("btn-back-to-top");
+  
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function () {
+    scrollFunction();
+  };
+  
+  function scrollFunction() {
+    if (
+      document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20
+    ) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  // When the user clicks on the button, scroll to the top of the document
+  mybutton.addEventListener("click", backToTop);
+  
+    function backToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  
+        </script>
+
+  </body>
+</html>

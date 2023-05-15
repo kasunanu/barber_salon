@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Stag';
+    src: url('Stag-Italic.woff2') format('woff2'),
+        url('Stag-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stag';
+    src: url('Stag-LightItalic.woff2') format('woff2'),
+        url('Stag-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stag';
+    src: url('Stag-Light.woff2') format('woff2'),
+        url('Stag-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stag';
+    src: url('Stag-ThinItalic.woff2') format('woff2'),
+        url('Stag-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stag';
+    src: url('Stag-Regular.woff2') format('woff2'),
+        url('Stag-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stag Med';
+    src: url('Stag-MediumItalic.woff2') format('woff2'),
+        url('Stag-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stag';
+    src: url('Stag-Thin.woff2') format('woff2'),
+        url('Stag-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stag SemBd';
+    src: url('Stag-SemiBold.woff2') format('woff2'),
+        url('Stag-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stag Med';
+    src: url('Stag-Medium.woff2') format('woff2'),
+        url('Stag-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stag SemBd';
+    src: url('Stag-SemiBoldItalic.woff2') format('woff2'),
+        url('Stag-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stag';
+    src: url('Stag-BlackItalic.woff2') format('woff2'),
+        url('Stag-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stag';
+    src: url('Stag-Bold.woff2') format('woff2'),
+        url('Stag-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stag';
+    src: url('Stag-BoldItalic.woff2') format('woff2'),
+        url('Stag-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stag';
+    src: url('Stag-Black.woff2') format('woff2'),
+        url('Stag-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
