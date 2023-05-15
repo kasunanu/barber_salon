@@ -461,6 +461,7 @@ p{
   background-repeat:no-repeat;
   background-position:center;
   padding: 140px 70px;
+  background-size: cover;
 }
 
 .feedback_icon{
