@@ -42,14 +42,36 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
 
+  .navbar-dark .navbar-toggler {
+    
+    color: rgba(220,164,78,.55);
+    border-color: rgba(220,164,78,.1);
+    padding: 10px;
+  }
 
+  .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+    margin: 30px;
+} 
+  .nav_booking_bt{
+    display: none;
+  }
+
+  .nav_calender_bt{
+    display: none;
+  }
 
   .carousel_main_head{
     font-size: 55px;
   }
 
   .nav-item{
-    padding: 0;}
+    padding: 2px;}
   
   .about_top {
     padding: 36px;
@@ -72,9 +94,11 @@
     display: none;
   }
 
-  .about_bottom_tx{
+  .about_bottom_tx {
     position: relative;
-    left: -80px;
+    left: -94px;
+    top: -8px;
+    padding: 0;
   }
 
   .price_bg_1, .price_bg2{
@@ -161,7 +185,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    background-position-x: -181px;
 }
 
   .navbar-brand{
@@ -201,8 +224,8 @@
     height: 313px;
     overflow: hidden;
     border: 1px solid white;
-}
-
+  } 
+  
   .booking_num{
     display: none;
   }     
@@ -247,25 +270,24 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    background-position-x: -181px;
-}
+  }
 
   .crsl_tx_left {
     padding-left: 25px;
-}
+  }
 
-.about_top {
-  padding: 22px;
-}   
-.store_row .row {
-  --bs-gutter-x: -2.5rem;
-  --bs-gutter-y: 0;
-} 
+  .about_top {
+    padding: 22px;
+  }   
+  .store_row .row {
+    --bs-gutter-x: -2.5rem;
+    --bs-gutter-y: 0;
+  } 
 
-.product {
-  text-align: center;
-  width: 230px;
-  border: 1px solid #DCA44E;
-}
+  .product {
+    text-align: center;
+    width: 230px;
+    border: 1px solid #DCA44E;  
+  }
 
 }
