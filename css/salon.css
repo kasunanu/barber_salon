@@ -577,6 +577,10 @@ p{
 
 /* team */
 
+.team{
+  border: white solid 2px;
+}
+
 .team1{
   background-image: url(../img/about_us/team1.jpg);
   width: 100%;
