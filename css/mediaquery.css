@@ -247,6 +247,11 @@
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 375px) {
 
+  .mbl_carousel_tx{
+    bottom: 50px; 
+    left: 5px !important;
+  }
+
   .store_row .row {
     --bs-gutter-x: -2.5rem;
     --bs-gutter-y: 0;
@@ -258,6 +263,11 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 360px) {
+
+  .mbl_carousel_logo{
+    position: absolute;
+    margin: 29px 7px !important;
+  }
 
   .product {
     text-align: center;
