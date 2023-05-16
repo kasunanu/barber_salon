@@ -117,19 +117,14 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 767px) {
 
-  .carousel{
+  .main_carousel{
     display: none;
   }
 
   .mbl_carousel{
     display: block !important;
-  }
-
-  .carousel-item {
-    background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-}
+  }
   
   .about_bottom_sec{
     display: none;
