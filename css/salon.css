@@ -783,3 +783,11 @@ p{
   outline: 0;
   box-shadow: none;
 }
+
+/* news */
+
+.news_heading{
+  color: #303030;
+  font-size: 21px;
+}
+
