@@ -363,12 +363,10 @@ p{
   padding: 20px;
 }
 
-/* store */
+/* news */
 
 .product{
-  text-align: center;
   width: 250px; 
-  border: 1px solid #DCA44E;
 }
 
 .product_img{
@@ -380,26 +378,6 @@ p{
   font-weight: bold;
   letter-spacing: 2px;
   color: #303030;
-}
-
-.shop_bt{
-  font-size: 12px;
-  padding: 10px 20px;
-  letter-spacing: 2px;
-  font-family: lato;
-  width: 150px;
-  transition: 0.5s;
-  background-color: #DCA44E;
-  color: #ffffff;
-  border: 1px solid #DCA44E;
-  margin-bottom: 10px;
-}
-
-.shop_bt:hover{
-  border: 1px solid #303030;
-  background-color: #303030;
-  letter-spacing: normal;
-  color: white;
 }
 
 .owl-nav{
