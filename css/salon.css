@@ -791,3 +791,21 @@ p{
   font-size: 21px;
 }
 
+.page-link{
+  border-radius: 0px !important;
+  border: 1px solid #DCA44E;
+  color: #212529;
+  font-family: lato;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 10px;
+  transition: 0.5s;
+}
+
+.page-link:hover{
+  background-color: #DCA44E;
+  color: white;
+  border-color: #DCA44E;
+}
+
