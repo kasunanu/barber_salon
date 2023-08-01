@@ -289,6 +289,11 @@
     --bs-gutter-x: -10.5rem;
     --bs-gutter-y: 0;
   }
+
+  .product {
+    text-align: center;
+    width: 342px;
+  }
   
 }
 
@@ -304,6 +309,11 @@
     --bs-gutter-x: -2.5rem;
     --bs-gutter-y: 0;
   }
+
+  .product {
+    text-align: center;
+    width: 342px;
+  }
 	
 }
 
@@ -317,8 +327,7 @@
 
   .product {
     text-align: center;
-    width: 240px;
-    border: 1px solid #DCA44E;
+    width: 312px;
 }
   .about_top {
     padding: 37px;
@@ -359,8 +368,7 @@
 
   .product {
     text-align: center;
-    width: 230px;
-    border: 1px solid #DCA44E;  
+    width: 272px;
   }
 
   .team_text {
