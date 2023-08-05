@@ -483,6 +483,15 @@ p{
   box-shadow: 0 0 0 0.25rem rgba(220,164,78,.25);
 }
 
+.form-floating>.form-control:focus, .form-floating>.form-control:not(:placeholder-shown) {
+  padding-top: 1.625rem;
+  padding-bottom: 0.625rem;
+}
+
+.date{
+  color: #7C7C7C;
+  padding: 10px!important;
+}
 
 
 .booking_num{
