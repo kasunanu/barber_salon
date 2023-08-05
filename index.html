@@ -65,27 +65,14 @@
     <!--scroll bar style-->
 
     <title>Barber Shop</title>
-
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-     })(window,document,'script','dataLayer','GTM-PMX55GGX');</script>
-    <!-- End Google Tag Manager -->
   
-  </head>
+    </head>
 
     <!-- ================================================== -->
 
-  <body>
-
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMX55GGX"
-     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
-    <!-- nav bar -->
+    <body>
+      
+      <!-- nav bar -->
 
     <a class="navbar-brand" href="#">
       <img src="img/nav_logo.svg" alt="">
@@ -330,17 +317,17 @@
         <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5 about_img">
         </div>
         <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12 about_top">
-          <h5 class="small_heading">
+          <h5 class="small_heading" data-aos="fade-up-right" data-aos-duration="1000">
             About Us
           </h5>
-          <h3 class="sub_heading pb-3 about_heading">
+          <h3 class="sub_heading pb-3 about_heading" data-aos="fade-up-left" data-aos-duration="1000">
             SATISFYING ALL YOUR SHEAR DESIRES
           </h3>
-          <p class="about_top_tx">
+          <p class="about_top_tx" data-aos="fade-up-right" data-aos-duration="1000">
             Welcome to Barber Shop, your ultimate destination for style and sophistication. With over two decades of experience, our skilled barbers and stylists have been dedicated to crafting exceptional looks for the modern man. As a pillar of the community, we take great pride in our rich history of delivering top-notch haircuts and grooming services, earning the trust of countless clients who walk in as customers and leave as family.
             <br>
             <br>
-            <span class="about_top_tx_mbl">
+            <span class="about_top_tx_mbl" data-aos="fade-up-right" data-aos-duration="1000">
               At Barber Shop, grooming is an art form that extends beyond aesthetics. Our mission is to elevate your confidence through precise haircuts, beard grooming, and revitalizing facials. Step into our inviting space, where tradition meets innovation, and let us redefine the art of grooming with impeccable style and exceptional service. Join us on this journey of self-expression, leaving you refreshed, rejuvenated, and ready to conquer the world.
             
               <br>
@@ -364,9 +351,9 @@
           <img src="img/logo2.svg" alt="" class="about_logo">
         </div>
         <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-5">
-          <p class="about_bottom_tx">
+          <p class="about_bottom_tx" data-aos="fade-up-left" data-aos-duration="1000">
             At Barber Shop, we believe grooming is an art form that goes beyond appearance. Our mission is to elevate your confidence through precise haircuts, beard grooming, and revitalizing facials. With a passion for attention to detail, we ensure each visit is a personalized experience, tailored to your unique preferences and style goals.
-            <br><br>Step into our inviting space where tradition meets innovation. Our team of experts takes the time to understand your individual needs, making every appointment an opportunity to create a look that truly represents you. Join us as we redefine the art of grooming, one impeccable style at a time, leaving you refreshed and ready to conquer the world.
+            <br><br data-aos="fade-up-right" data-aos-duration="1000">Step into our inviting space where tradition meets innovation. Our team of experts takes the time to understand your individual needs, making every appointment an opportunity to create a look that truly represents you. Join us as we redefine the art of grooming, one impeccable style at a time, leaving you refreshed and ready to conquer the world.
           </p>
           <a href="about_us.html">
             <button type="button" class="system_bt about_learn_bt ms-2"> 
@@ -1030,7 +1017,10 @@
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
-  AOS.init();
+  AOS.init({
+				easing: 'ease-out-back',
+				duration: 1000
+			});
 </script>
 
 <script>
