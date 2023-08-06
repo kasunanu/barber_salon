@@ -17,6 +17,7 @@ html{
 body{
   font-family: stag;
   letter-spacing: 1px;
+  overflow-x: hidden;
 }
 
 p{
@@ -682,11 +683,6 @@ p{
   transition: 0.2s ease;
 }
 
-.hair_img:hover{
-  border: #DCA44E solid 5px;
-  
-}
-
 .service_txt{
   margin-top: 18px;
   position: relative;
@@ -715,10 +711,6 @@ p{
   transition: 0.2s ease;
 }
 
-.service_lg_img:hover{
-  border: #DCA44E solid 5px;
-  
-}
 .service_txt_lg{
   position: absolute;
   margin-top: -80px;
