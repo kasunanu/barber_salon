@@ -10,6 +10,10 @@
 
 /* common css */
 
+html{
+  overflow-x: hidden;
+}
+
 body{
   font-family: stag;
   letter-spacing: 1px;
