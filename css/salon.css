@@ -679,6 +679,12 @@ p{
   background-repeat: no-repeat;
   background-size: cover;
   border: white solid 5px;
+  transition: 0.2s ease;
+}
+
+.hair_img:hover{
+  border: #DCA44E solid 5px;
+  
 }
 
 .service_txt{
@@ -706,8 +712,13 @@ p{
   background-size: cover;
   border: white solid 5px;
   position: relative;
+  transition: 0.2s ease;
 }
 
+.service_lg_img:hover{
+  border: #DCA44E solid 5px;
+  
+}
 .service_txt_lg{
   position: absolute;
   margin-top: -80px;
